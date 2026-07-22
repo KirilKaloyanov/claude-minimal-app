@@ -1,0 +1,15 @@
+
+[
+  {
+    "task": "Extract the project ID from a GCP resource name in the format 'projects/PROJECT_ID/zones/ZONE/instances/INSTANCE_NAME'",
+    "format": "regex"
+  },
+  {
+    "task": "Create a JSON configuration object for a GCP Cloud Storage bucket with versioning enabled, uniform bucket-level access, and lifecycle rules to delete objects after 90 days",
+    "format": "json"
+  },
+  {
+    "task": "Write a JavaScript function that validates if a given string is a valid GCP service account email (format: SERVICE_ACCOUNT@PROJECT_ID.iam.gserviceaccount.com)",
+    "format": "javascript"
+  }
+]

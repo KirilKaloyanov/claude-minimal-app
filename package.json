@@ -1,0 +1,25 @@
+{
+  "name": "claude-training",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint .",
+    "repl": "node ./replApp/index.js",
+    "generate-dataset": "node ./promptEval/generateDataset.js",
+    "evaluate-prompt": "node ./promptEval/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.106.0",
+    "esprima": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^10.6.0",
+    "globals": "^17.7.0"
+  }
+}
