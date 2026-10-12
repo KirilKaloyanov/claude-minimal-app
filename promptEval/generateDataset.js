@@ -24,7 +24,7 @@ const prompt = `
 const messages = [];
 addUserMessage(messages, prompt);
 addAssistantMessage(messages, '```code');
-const response = await chat(messages, { stopSequences: ['```'], model: MODEL_MAPPING.haiku });
+const response = await chat(messages, { stopSequences: ['```'], model: "haiku" });
 
 try {
   await writeFile('./promptEval/dataset.json', response, 'utf-8');
